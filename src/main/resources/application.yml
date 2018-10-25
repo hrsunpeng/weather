@@ -1,0 +1,12 @@
+spring:
+  redis:
+    host: 172.17.222.202
+    password: 123456
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+    timeout: 5000
+  thymeleaf:
+    cache: false
